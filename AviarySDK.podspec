@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source = {
     "http" => "http://scripts.aviary.com/sdk/ios/4.1.0/Aviary-iOS-SDK.zip"
   }
-  s.resources = "AviarySDK-4.1.0/AviarySDK/AviarySDKResources.bundle"
+  s.resource = "AviarySDK-4.1.0/AviarySDK/AviarySDKResources.bundle"
   s.vendored_frameworks = "AviarySDK-4.1.0/AviarySDK/AviarySDK.framework"
   s.frameworks = [
     "QuartzCore",
