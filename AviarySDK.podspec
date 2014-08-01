@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "AviarySDK"
-  s.version = "4.1.0"
+  s.version = "4.2.0"
   s.platform = :ios, '6.0'
   s.summary = "Aviary's photo editing SDK for iOS."
   s.homepage = "http://developers.aviary.com/docs/ios"
@@ -12,10 +12,10 @@ Pod::Spec.new do |s|
     "Aviary= Inc." => "api@aviary.com"
   }
   s.source = {
-    "http" => "http://scripts.aviary.com/sdk/ios/4.1.0/Aviary-iOS-SDK.zip"
+    "http" => "http://scripts.aviary.com/sdk/ios/4.2.0/Aviary-iOS-SDK.zip"
   }
-  s.resource = "AviarySDK-4.1.0/AviarySDK/AviarySDKResources.bundle"
-  s.vendored_frameworks = "AviarySDK-4.1.0/AviarySDK/AviarySDK.framework"
+  s.resource = "AviarySDK-4.2.0/AviarySDK/AviarySDKResources.bundle"
+  s.vendored_frameworks = "AviarySDK-4.2.0/AviarySDK/AviarySDK.framework"
   s.frameworks = [
     "QuartzCore",
     "Accelerate",
