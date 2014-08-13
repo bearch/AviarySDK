@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   }
   s.resource = "AviarySDK-4.2.0/AviarySDK/AviarySDKResources.bundle"
   s.vendored_frameworks = "AviarySDK-4.2.0/AviarySDK/AviarySDK.framework"
+  s.preserve_paths = "AviarySDK-4.2.0/AviarySDK/AviarySDK.framework"
   s.frameworks = [
     "QuartzCore",
     "Accelerate",
