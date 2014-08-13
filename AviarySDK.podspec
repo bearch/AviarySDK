@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "AviarySDK"
-  s.version = "4.2.0"
+  s.version = "4.1.0"
   s.platform = :ios, '6.0'
   s.summary = "Aviary's photo editing SDK for iOS."
   s.homepage = "http://developers.aviary.com/docs/ios"
